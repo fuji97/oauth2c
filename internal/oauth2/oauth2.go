@@ -88,6 +88,7 @@ type ClientConfig struct {
 	Timeout                time.Duration
 	DPoP                   bool
 	Claims                 string
+	Origin                 string
 }
 
 func RequestAuthorization(cconfig ClientConfig, sconfig ServerConfig, hc *http.Client) (r Request, codeVerifier string, err error) {
@@ -436,6 +437,10 @@ func RequestToken(
 	}
 
 	req.Header.Add("Content-Type", "application/x-www-form-urlencoded")
+
+	if cconfig.Origin != "" {
+		req.Header.Add("Origin", cconfig.Origin)
+	}
 
 	if cconfig.DPoP {
 		if err = DPoPSignRequest(cconfig.SigningKey, hc, req); err != nil {
