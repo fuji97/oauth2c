@@ -348,7 +348,7 @@ End of functions from https://github.com/client9/shlib
 EOF
 
 PROJECT_NAME="oauth2c"
-OWNER=cloudentity
+OWNER=fuji97
 REPO="oauth2c"
 BINARY=oauth2c
 FORMAT=tar.gz

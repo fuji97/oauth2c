@@ -1,9 +1,9 @@
 # OAuth2c: user-friendly OAuth CLI
 
-[![status](https://github.com/cloudentity/oauth2c/workflows/build/badge.svg)](https://github.com/cloudentity/oauthc/actions)
+[![status](https://github.com/fuji97/oauth2c/workflows/build/badge.svg)](https://github.com/fuji97/oauthc/actions)
 [![license](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
-[![release](https://img.shields.io/github/release-pre/cloudentity/oauth2c.svg)](https://github.com/cloudentity/oauth2c/releases)
-[![downloads](https://img.shields.io/github/downloads/cloudentity/oauth2c/total)](https://github.com/cloudentity/oauth2c/releases)
+[![release](https://img.shields.io/github/release-pre/fuji97/oauth2c.svg)](https://github.com/fuji97/oauth2c/releases)
+[![downloads](https://img.shields.io/github/downloads/fuji97/oauth2c/total)](https://github.com/fuji97/oauth2c/releases)
 [![packages](https://repology.org/badge/tiny-repos/oauth2c.svg)](https://repology.org/project/oauth2c/versions)
 
 `oauth2c` is a command-line tool for interacting with OAuth 2.0 authorization servers. Its goal is to make it easy to fetch access tokens
