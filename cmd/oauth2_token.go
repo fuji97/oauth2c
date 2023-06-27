@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/cloudentity/oauth2c/internal/oauth2"
+	"github.com/fuji97/oauth2c/internal/oauth2"
 )
 
 func (c *OAuth2Cmd) ClientCredentialsGrantFlow(clientConfig oauth2.ClientConfig, serverConfig oauth2.ServerConfig, hc *http.Client) error {

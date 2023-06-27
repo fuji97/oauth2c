@@ -60,7 +60,7 @@ go install github.com/cloudentity/oauth2c@latest
 
 You can also download a pre-built binary from the [releases page].
 
-[releases page]: https://github.com/cloudentity/oauth2c/releases
+[releases page]: https://github.com/fuji97/oauth2c/releases
 
 ## Usage
 

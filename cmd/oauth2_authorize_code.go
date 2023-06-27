@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/cloudentity/oauth2c/internal/oauth2"
+	"github.com/fuji97/oauth2c/internal/oauth2"
 	"github.com/pkg/browser"
 )
 

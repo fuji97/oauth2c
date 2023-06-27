@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/cloudentity/oauth2c/cmd"
+	"github.com/fuji97/oauth2c/cmd"
 )
 
 func main() {

@@ -13,7 +13,7 @@ import (
 	"github.com/go-jose/go-jose/v3"
 	"github.com/go-jose/go-jose/v3/jwt"
 
-	"github.com/cloudentity/oauth2c/internal/oauth2"
+	"github.com/fuji97/oauth2c/internal/oauth2"
 	"github.com/grantae/certinfo"
 	"github.com/pterm/pterm"
 	"github.com/tidwall/pretty"

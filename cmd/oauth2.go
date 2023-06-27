@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cloudentity/oauth2c/internal/oauth2"
+	"github.com/fuji97/oauth2c/internal/oauth2"
 	"github.com/imdario/mergo"
 	"github.com/pkg/browser"
 	"github.com/spf13/cobra"
